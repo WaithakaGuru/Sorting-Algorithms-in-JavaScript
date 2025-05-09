@@ -1,5 +1,4 @@
 // on 26th August 2024 [12:06 PM ]
-//function to perform bubble sort 
 
 // a simple function to return the length of an iterable eg an ARRAY, STRING, e.t.c
 function count(iterable){
@@ -10,7 +9,6 @@ function count(iterable){
 }
 
 /* the bubble sort logic function*/
-
 function bubbleSort(array){
     let iterations = sort(array), iterationsCount =[];
     while(iterations.swaps > 0){
@@ -31,8 +29,11 @@ function bubbleSort(array){
  }
 }
 
-//testing the function 
-console.log(bubbleSort([22,3,44,5,6,8,7,10,9,15]));// normal list
-console.log(bubbleSort([1,3,2,4,4,5,6,7,8,9])); // list with only one misplaced element
-console.log(bubbleSort([13,12,11,9,8,7,6,5,3,2])); // a reverse-ordered list
-console.log(bubbleSort([10,11,22,33,44,55,66,77,88,99])); // a sorted list
+/**
+ * Testing the Algo with a normal unordered, ordered, reverse ordered lists
+ *      and a list with only one misplaced element
+ */
+console.log(bubbleSort([22,3,44,5,6,8,7,10,9,15]));
+console.log(bubbleSort([1,3,2,4,4,5,6,7,8,9]));
+console.log(bubbleSort([13,12,11,9,8,7,6,5,3,2]));
+console.log(bubbleSort([10,11,22,33,44,55,66,77,88,99]));
