@@ -1,5 +1,4 @@
 // On the evening of 26th August 2024
-// creating an insertion Sort algorithm
 
 // a function to get the length of an iterable eg ARRAY, STRING e.t.c
 function count (iterable){
@@ -8,6 +7,7 @@ function count (iterable){
     for(const item of iterable) i++;
     return i;
 }
+
 // the Insertion sort logic
 function insertionSort(array){
     let sorted= [], len = count(array), temp, swaps = 0, swapsCount= [], iterations = 0;
