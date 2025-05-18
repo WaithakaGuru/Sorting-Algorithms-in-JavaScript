@@ -27,7 +27,7 @@ function selectionSort (list){
  * Testing the Algo with a normal unordered, ordered, reverse ordered lists
  *      and a list with only one misplaced element
  */
-console.log(selectionSort([1,3,2,4,4,5,6,7,8,9])); 
+console.log(selectionSort([1,3,2,4,5,6,7,8,9])); 
 console.log(selectionSort([13,12,11,9,8,7,6,5,3,2])); 
 console.log(selectionSort([10,11,22,33,44,55,66,77,88,99])); 
 console.log(selectionSort([22,3,44,5,6,8,7,10,9,15]));
